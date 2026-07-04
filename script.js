@@ -3,7 +3,7 @@
   false = abre o app agora
   true = bloqueia e libera apenas no próximo dia 04
 */
-const TIMER_ATIVO = true;
+const TIMER_ATIVO = false;
 
 const DATA_PEDIDO = new Date("2026-06-04T00:00:00");
 const app = document.getElementById("app");
